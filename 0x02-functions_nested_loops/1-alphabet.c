@@ -10,6 +10,6 @@ void print_alphabet(void)
 	int es;
 
 	for (es = 'a'; es <= 'z'; es++)
-		_putchar(ch)
+		_putchar(es)
 			_putchar(10);
 }	
