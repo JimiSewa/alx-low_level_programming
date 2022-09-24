@@ -5,7 +5,6 @@
  * Return: 0 if not digit or 1 if digit
  */
 
-void reset_to_98(int *n)
 {
-	 *n = 98;
+	*n = 98;
 }
