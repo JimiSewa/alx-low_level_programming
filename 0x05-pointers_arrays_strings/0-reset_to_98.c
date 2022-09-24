@@ -1,18 +1,11 @@
-#include "main.h"
-#include <stdio.h>
-
 /**
- * takes a pointer to an int as parameter 
- * 
- * Return: Always 0.
+ * reset_to_98 - updates pointer value to 98 
+ * Description - same as above
+ * @n: input to be checked
+ * Return: 0 if not digit or 1 if digit
  */
-int main(void)
-{
-	  int n;
 
-	   n = 402;
-	   printf("n=%d\n", n);
-	    reset_to_98(&n);
-	     printf("n=%d\n", n);
-	       return (0);
+void reset_to_98(int *n)
+{
+	 *n = 98;
 }
